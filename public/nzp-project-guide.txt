@@ -1,0 +1,43 @@
+NET ZERO PLATFORMS
+PROJECT SCREENING GUIDE — OCTOBER 2026
+
+Waste-to-Value starts where recycling stops.
+
+1. THE STARTING POINT
+Organisation, project contact and location.
+The problem to solve and intended output.
+Project timing and site status.
+
+2. FEEDSTOCK
+Residual type and annual volume; seasonal availability.
+Current destination and treatment cost.
+Representative composition, moisture, ash and calorific value.
+Contaminants and any hazardous classification.
+Existing analysis, sampling method and variability.
+Preparation and transport requirements.
+
+3. SITE AND OUTPUT
+Available land, electricity, water and access.
+Planning and environmental constraints.
+Electricity and useful heat demand profiles.
+Hydrogen, CO or syngas volume, purity, pressure and delivery conditions.
+Potential downstream synthesis partner and offtake requirement.
+
+4. DEVELOPMENT PATHWAY
+SCREEN: define materials, baseline, local demand and missing information.
+MODEL: compare process architectures and sensitivities.
+VALIDATE: feedstock, mass/energy balance, emissions, residues and product specification.
+DEVELOP: site, permits, contracts, delivery interfaces and investment case.
+DEPLOY: integrate, commission and verify agreed acceptance criteria.
+
+5. EVIDENCE CHECKLIST
+Established component maturity is distinct from integrated project performance.
+Historical operating evidence must identify the system, application and period.
+Models must identify assumptions and be reviewed against measured data.
+Net energy includes internal consumption; output pathways cannot double-count syngas.
+Carbon assessment must define the baseline and whole-system boundary.
+Byproducts require testing and acceptance; reuse is not automatic.
+Commercial returns and carbon credit eligibility need project-specific substantiation.
+
+This guide is explanatory, not a performance specification or investment forecast.
+Start a discussion: https://nzptechnology.vercel.app/start
