@@ -1,0 +1,49 @@
+NET ZERO PLATFORMS — FEEDSTOCKS
+
+A material’s name does not establish its suitability. Composition, variability, preparation and supply certainty shape what a project can practically deliver.
+
+MUNICIPAL & COMMERCIAL RESIDUALS
+Assess the non-recyclable residual fraction and prepared RDF / SRF, with particular attention to variability and contaminants.
+• Representative composition and sorting route
+• Moisture, ash and calorific value
+• Halogens, metals and committed volumes
+
+INDUSTRIAL CARBON-BEARING RESIDUALS
+Screen production residues and byproducts against their current treatment route and nearby product demand.
+• Process origin and variability
+• Carbon content and contaminants
+• Supply continuity and preparation
+
+BIOMASS & AGRICULTURAL RESIDUES
+Consider qualified biogenic residues after competing uses, practical logistics and seasonal supply have been assessed.
+• Origin and competing uses
+• Seasonality, moisture and storage
+• Transport and biogenic fraction
+
+LEGACY LANDFILL MATERIAL
+Begin with characterisation, excavation constraints and practical sorting. Historic deposits can contain a highly variable mixture of materials.
+• Representative sampling programme
+• Excavation and sorting requirements
+• Hazardous fractions and legal responsibilities
+
+COAL-BEARING RESIDUALS
+Explore whether carbon-bearing legacy material presents a conversion opportunity alongside remediation needs. Ash, sulphur, moisture and preparation can dominate the decision.
+• Carbon and mineral fractions
+• Sulphur, metals and moisture
+• Excavation, preparation and residue route
+
+WASTE HYDROCARBONS & SPECIALIST STREAMS
+Difficult streams require a defined handling and validation programme. Safety, contamination and the permitted treatment route come first.
+• Material identity and safety data
+• Handling and contaminant controls
+• Trials, permits and acceptance criteria
+
+ASH & MINERAL-RICH RESIDUES
+Treat these as a specialist material-recovery or treatment question. The useful mineral route and required energy input need to be established separately.
+• Mineralogy and leachability
+• Recoverable constituents
+• Energy input and product acceptance
+
+Acceptance is subject to representative analysis, trials where needed, engineering and permits. Mineral-rich material requires a distinct assessment; it is not automatically an energy feedstock.
+
+Discuss a project: https://nzptechnology.vercel.app/start

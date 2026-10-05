@@ -1,0 +1,43 @@
+NET ZERO PLATFORMS — AI & MODELLING
+
+Explore the modelling work behind project selection: material balances, net energy, product routes, commercial sensitivity and lifecycle carbon.
+
+FEEDSTOCK-TO-OUTPUT CONFIGURATION
+Compare viable processing routes using representative material data and customer output specifications.
+• Feedstock chemistry and variability
+• Process assumptions and equipment limits
+• Product specification and downstream route
+
+MASS & ENERGY BALANCES
+Account for utilities, internal electricity, gas conditioning, downstream conversion and usable products across the full boundary.
+• Purchased energy and internal loads
+• Gas, water and solid material flows
+• Net exported energy and useful heat
+
+COMMERCIAL SENSITIVITY
+Test treatment income, product sales, operating costs and capital assumptions separately. Use the live illustrative calculator as a starting point.
+• Contracted net treatment revenue
+• Saleable product volume and price
+• Capital, availability and operating costs
+
+CARBON ASSESSMENT
+Compare the complete project with a defined baseline and distinguish fossil from biogenic material.
+• Feedstock origin and baseline
+• Electricity, transport and downstream use
+• Capture, storage and assessment method
+
+AI-ASSISTED RESEARCH & DOCUMENTATION
+Potential uses include organising technical literature, extracting assumptions and checking documentation consistency, with expert review.
+• Source traceability and confidentiality
+• Human review of generated material
+• Versioning and limits of the tool
+
+PROCESS OPTIMISATION & MODEL INTEGRATION
+Define the appropriate interface between engineering models, equipment suppliers and operating data during development.
+• Available data and measurement quality
+• Model validation and update process
+• Control boundaries and safety responsibilities
+
+The live calculator uses transparent arithmetic. This website does not run an AI engineering model, predict feedstock yields or provide an automated investment decision. Engineering results require a documented model and review.
+
+Discuss a project: https://nzptechnology.vercel.app/start

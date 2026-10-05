@@ -1,0 +1,43 @@
+NET ZERO PLATFORMS — TECHNOLOGY & IP
+
+NZP’s proposition combines high-temperature conversion principles with gas-processing interfaces, configuration models and project engineering.
+
+CONVERSION ARCHITECTURE
+Submerged-arc furnace principles form the starting point for controlled high-temperature conversion of qualified material.
+• Electrical load and operating conditions
+• Feedstock preparation and furnace design
+• Electrodes, refractory and residue handling
+
+GAS PROCESSING & INTEGRATION
+Industrial cleaning, conditioning and separation connect raw gas with the selected output route.
+• Contaminant load and cleaning stages
+• Mass and energy balance
+• Downstream equipment specification
+
+CONFIGURATION MODELS
+Engineering and commercial models compare routes around a defined feedstock, site and offtake requirement.
+• Model version and assumptions
+• Measured inputs and calibration
+• Uncertainty and independent review
+
+DRAWINGS & TECHNICAL DOCUMENTATION
+A project evidence pack can include the design basis, engineering drawings, equipment interfaces and operating procedures appropriate to its stage.
+• Documentation scope and ownership
+• Revision control and design approval
+• Access, confidentiality and permitted use
+
+IP & LICENSING REVIEW
+Establish the rights needed for the proposed implementation, including relevant NZP know-how and third-party process technology.
+• Patent and application records where applicable
+• Ownership and permitted use
+• Third-party licences and freedom-to-operate review
+
+TRAINING & KNOWLEDGE TRANSFER
+Define the operating knowledge, training material and support needed for a safe handover.
+• Training scope and operator competence
+• Manuals and maintenance procedures
+• Acceptance and ongoing support
+
+Patent ownership, applications, licence scope and third-party rights should be established through the relevant records and agreements. This page makes no claim to a granted patent portfolio.
+
+Discuss a project: https://nzptechnology.vercel.app/start

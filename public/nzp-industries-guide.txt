@@ -1,0 +1,43 @@
+NET ZERO PLATFORMS — INDUSTRIES / MARKETS
+
+Explore where qualified residual resources, useful energy and industrial molecule demand can meet. Each market starts with its own specification and commercial baseline.
+
+STEEL & METALS
+Assess carbon-bearing residuals, useful heat and reducing-gas requirements alongside the site’s existing process. Process-gas reuse needs a separate composition and integration assessment.
+• Residual and process-gas composition
+• Furnace interfaces and utilities
+• Product demand and operating profile
+
+GLASS & CERAMICS
+Explore controllable energy and process heat around a demanding continuous production environment. Gas quality, burner compatibility and heat delivery determine the fit.
+• Temperature and heat-demand profile
+• Fuel specification and burner compatibility
+• Continuity and backup supply
+
+CHEMICAL MANUFACTURING
+Screen local hydrogen, carbon monoxide or synthesis-gas supply against the specification of an existing or proposed chemical process.
+• Purity, pressure and contaminant limits
+• Hourly and annual molecule demand
+• Conditioning, storage and offtake
+
+FUELS & SUSTAINABLE AVIATION FUEL
+Consider syngas preparation for specialist downstream synthesis, including Fischer–Tropsch pathways. Fuel eligibility and certification must be established for the particular feedstock and route.
+• Downstream licensor specification
+• Feedstock origin and carbon assessment
+• Certification, scale and product offtake
+
+WASTE & RESOURCE MANAGEMENT
+Connect qualified non-recyclable residuals with a useful product pathway after practical reuse and recycling. Start with the current treatment cost and supply profile.
+• Composition and seasonality
+• Current destination and treatment costs
+• Preparation, permits and residues
+
+REGIONAL DEVELOPERS & INDUSTRIAL ESTATES
+Bring local residual supply, available utilities and nearby demand into a phased project. The industrial and community setting shapes the development pathway.
+• Site and infrastructure
+• Supply and customer relationships
+• Planning, logistics and development phasing
+
+These are project applications to assess, rather than a list of completed NZP installations.
+
+Discuss a project: https://nzptechnology.vercel.app/start

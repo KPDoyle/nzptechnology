@@ -1,0 +1,43 @@
+NET ZERO PLATFORMS — RESOURCES
+
+Download NZP’s introductory checklists, explore explanatory articles and understand the evidence required to move a project forward.
+
+PROJECT SCREENING GUIDE
+A starting checklist for materials, site conditions, output requirements and evidence.
+• Feedstock and site information
+• Product demand and baseline
+• Validation and development pathway
+
+FEEDSTOCK DATA CHECKLIST
+Prepare the composition, variability and supply information that makes an initial review useful.
+• Representative sampling
+• Moisture, ash and contaminants
+• Supply, handling and destination
+
+PRODUCT & OFFTAKE CHECKLIST
+Define the customer requirement before selecting the downstream route.
+• Purity, pressure and delivery
+• Volume and operating profile
+• Contract and acceptance requirements
+
+PARTNER & LICENSING DISCUSSION GUIDE
+Set out scope, responsibilities and interfaces for a collaborative project.
+• Technology and territory
+• Engineering and equipment interfaces
+• Commercial responsibilities and support
+
+RESEARCH COLLABORATION BRIEF
+Frame a useful research question and the evidence it should produce.
+• Problem and proposed method
+• Data access and measurable outcomes
+• Publication and ownership
+
+MODEL ASSUMPTIONS CHECKLIST
+Record a model’s inputs, boundaries and limits before relying on its outputs.
+• Source data and version
+• Net energy and saleable volumes
+• Sensitivity, uncertainty and validation
+
+These are introductory NZP guides, not plant specifications, operating manuals or validated performance reports. Project-specific documents and confidential records are discussed separately.
+
+Discuss a project: https://nzptechnology.vercel.app/start

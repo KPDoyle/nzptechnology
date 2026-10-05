@@ -1,0 +1,55 @@
+NET ZERO PLATFORMS — PRODUCTS & APPLICATIONS
+
+A syngas intermediate creates options. The practical output depends on gas quality, processing equipment, local demand and the economics of the complete route.
+
+SYNGAS
+A hydrogen- and carbon-monoxide-containing intermediate for energy or further processing. Its composition must suit the intended application.
+• H₂ / CO ratio and gas composition
+• Contaminant limits and pressure
+• Continuous supply requirement
+
+POWER & USEFUL HEAT
+Configure qualified, cleaned gas for compatible engines or turbines and assess useful heat recovery against actual site demand.
+• Net exported electricity after internal loads
+• Heat temperature, volume and timing
+• Equipment specification and backup
+
+HYDROGEN
+Consider separation and conditioning for industrial use, fuel cells or other defined demand. Product classification depends on the feedstock, electricity and applicable methodology.
+• Purity and pressure
+• Recovery and conditioning duties
+• Storage, distribution and carbon intensity
+
+CARBON MONOXIDE
+Assess specified CO for chemical synthesis. Product purity, conditioning and safe industrial handling are central to the route.
+• CO purity and impurity limits
+• Separation and compression
+• Customer interface and supply volume
+
+FISCHER–TROPSCH FUELS & SAF
+Prepare suitable synthesis gas for specialist fuel synthesis. Aviation-fuel pathways need their own upgrading, approval and eligibility assessment.
+• Synthesis licensor requirements
+• Upgrading and product specification
+• Carbon intensity and certification
+
+METHANOL & CHEMICAL INTERMEDIATES
+Consider syngas as an input to downstream synthesis. Acetic acid and formic acid involve additional process steps and a separate commercial case.
+• Synthesis route and catalyst protection
+• Downstream equipment and utilities
+• Customer demand and product specification
+
+AMMONIA, FERTILISER & MARINE-FUEL PATHWAYS
+Evaluate hydrogen supply alongside nitrogen production, synthesis and the intended downstream market. These are integrated project routes.
+• Hydrogen and nitrogen requirements
+• Synthesis scale and energy use
+• Storage, logistics and product eligibility
+
+RECOVERED METALS & VITRIFIED MATERIAL
+Investigate solid products through composition, recovery, leachability and customer acceptance testing. A usable product route must be demonstrated.
+• Material composition and recovery
+• Leachability and product standards
+• Market acceptance and permitted use
+
+Downstream products are potential pathways requiring specialist synthesis technology and project validation. NZP does not claim to produce every product listed in one standard plant.
+
+Discuss a project: https://nzptechnology.vercel.app/start
