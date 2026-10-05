@@ -17,6 +17,9 @@ React 19, Vite development server, esbuild production bundling, React Router and
 ## Content and features
 
 - Customer-led homepage and six solution routes.
+- Eight additional sections: Industries / Markets, Feedstocks, Products & Applications, Partners & Licensing, Technology & IP, AI & Modelling, Memberships & Research and Resources.
+- Grouped dropdown navigation, searchable topic cards, assessment checklists and introductory plain-text guides.
+- 29 prerendered public routes with page metadata and sitemap.
 - Industrial platform architecture, project-development stages and evidence classification.
 - Editable illustrative economics tool; no NZP yield predictions.
 - Three-step project enquiry with input validation, attachment selection, review, downloadable brief and success/error states.
@@ -27,7 +30,7 @@ React 19, Vite development server, esbuild production bundling, React Router and
 
 ## Editing
 
-Content is version-controlled in `src/content.js`; page copy and layout are in `src/App.jsx`. Styling is in `src/styles.css`. An authenticated CMS, CRM and optional analytics are not configured. A bespoke administration interface must not expose public write access.
+Content is version-controlled in `src/content.js` and `src/sections.js`; page copy and layout are in `src/App.jsx`. Styling is in `src/styles.css`. An authenticated CMS, CRM and optional analytics are not configured. A bespoke administration interface must not expose public write access.
 
 ## Enquiry integration
 
@@ -40,6 +43,14 @@ Do not send test leads to the live endpoint without an explicit instruction to s
 See `research/competitor-review.md` for the primary-source competitor review, website choices and the evidence still required. Project figures, operating examples and partner relationships should only be added after substantiation. No patent-ownership or regulator-approval claim is published.
 
 The plant illustration is an AI-generated architectural concept, not an operating NZP plant or engineering specification. It is labelled accordingly. `public/logo.svg` and the white version are taken from the existing NZP website.
+
+## Expansion verification
+
+Production navigation, all eight additional pages, search filtering, empty results and expandable checklists were checked in the browser. All 44 internal link and asset targets resolved in the production build. The new pages generated no application console errors during the walkthrough.
+
+AI & Modelling describes decision support and links to the illustrative calculator; no AI engineering service is connected. Membership, patent and named supplier claims remain dependent on confirmed records.
+
+![Expanded navigation](research/expanded-navigation-preview.jpg)
 
 ## Release notes
 
