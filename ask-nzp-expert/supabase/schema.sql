@@ -31,12 +31,14 @@ $$;
 create function public.consume_rate_limit(bucket text,max_requests integer) returns boolean language plpgsql security invoker set search_path=public as $$
 declare n integer;w timestamptz:=date_trunc('minute',now());begin insert into rate_limits(bucket,window) values(consume_rate_limit.bucket,w) on conflict on constraint rate_limits_pkey do update set requests=rate_limits.requests+1 returning requests into n;delete from rate_limits where window<now()-interval '1 day';return n<=max_requests;end;
 $$;
-revoke all on all tables in schema public from anon,authenticated;
+revoke all on public.sources,public.chunks,public.coefficients,public.faqs,public.expert_modes,public.leads,public.audit_log,public.rate_limits from anon,authenticated;
 revoke execute on function public.match_chunks(extensions.vector,integer,float) from public,anon,authenticated;
 revoke execute on function public.replace_source_chunks(uuid,jsonb) from public,anon,authenticated;
 revoke execute on function public.consume_rate_limit(text,integer) from public,anon,authenticated;
-grant all on all tables in schema public to service_role;
-grant execute on all functions in schema public to service_role;
+grant all on public.sources,public.chunks,public.coefficients,public.faqs,public.expert_modes,public.leads,public.audit_log,public.rate_limits to service_role;
+grant execute on function public.match_chunks(extensions.vector,integer,float),public.replace_source_chunks(uuid,jsonb),public.consume_rate_limit(text,integer) to service_role;
 -- Revoking source approval automatically removes dependent calculation/FAQ approvals.
 create function public.revoke_dependents() returns trigger language plpgsql set search_path=public as $$begin if not new.approved or not new.public_allowed or new.content is distinct from old.content or new.public_url is distinct from old.public_url then update coefficients set approved=false where source_id=new.id;update faqs set approved=false where source_id=new.id;end if;return new;end;$$;
 create trigger revoke_dependents after update on public.sources for each row execute function public.revoke_dependents();
+
+revoke execute on function public.revoke_dependents() from public,anon,authenticated;
