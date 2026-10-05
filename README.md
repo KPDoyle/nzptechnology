@@ -12,7 +12,7 @@ npm run dev -- --host 127.0.0.1
 npm run build
 ```
 
-React 19, Vite, React Router and Lucide. Production builds prerender the public routes for search engines and generate a sitemap. Source changes on `main` deploy through the linked Vercel project.
+React 19, Vite development server, esbuild production bundling, React Router and Lucide. Production builds prerender the public routes for search engines and generate a sitemap. Source changes on `main` deploy through the linked Vercel project.
 
 ## Content and features
 

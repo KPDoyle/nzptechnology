@@ -1,0 +1,13 @@
+import {build} from 'esbuild';
+import {cp,mkdir,readFile,rm,writeFile} from 'node:fs/promises';
+await rm('dist',{recursive:true,force:true});
+await mkdir('dist/assets',{recursive:true});
+await cp('public','dist',{recursive:true});
+const result=await build({entryPoints:['src/main.jsx'],outdir:'dist/assets',entryNames:'[name]-[hash]',bundle:true,format:'esm',platform:'browser',jsx:'automatic',target:'es2020',minify:true,metafile:true,define:{'process.env.NODE_ENV':'"production"'},logLevel:'info'});
+const files=Object.keys(result.metafile.outputs);
+const js=files.find(p=>p.endsWith('.js'));
+const css=files.find(p=>p.endsWith('.css'));
+const template=await readFile('index.html','utf8');
+const html=template.replace('<script type="module" src="/src/main.jsx"></script>',`<script type="module" crossorigin src="/${js.replace(/^dist\//,'')}"></script>`).replace('</head>',`<link rel="stylesheet" crossorigin href="/${css.replace(/^dist\//,'')}"></head>`);
+await writeFile('dist/index.html',html);
+console.log('Static production assets built.');
