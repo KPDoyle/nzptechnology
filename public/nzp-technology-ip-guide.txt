@@ -1,9 +1,9 @@
 NET ZERO PLATFORMS — TECHNOLOGY & IP
 
-NZP’s proposition combines high-temperature conversion principles with gas-processing interfaces, configuration models and project engineering.
+NZP’s proposition combines ultra-high temperature plasma technology with gas-processing interfaces, configuration models and project engineering.
 
 CONVERSION ARCHITECTURE
-Submerged-arc furnace principles form the starting point for controlled high-temperature conversion of qualified material.
+Submerged-arc furnace principles form the starting point for conversion of qualified material using ultra-high temperature plasma technology.
 • Electrical load and operating conditions
 • Feedstock preparation and furnace design
 • Electrodes, refractory and residue handling

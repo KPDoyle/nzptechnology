@@ -9,7 +9,7 @@ export const solutions = [
 export const processSteps = [
 ['Recycle first','Recover the materials that should be reused or recycled.'],
 ['Qualify residuals','Understand composition, volume, moisture and contaminants.'],
-['Convert','A sealed, electrically driven high-temperature core creates raw syngas.'],
+['Convert','A sealed conversion core uses ultra-high temperature plasma technology to create raw syngas.'],
 ['Clean & condition','Industrial modules prepare the gas for its intended application.'],
 ['Configure outputs','Match practical energy and molecule pathways to local demand.']
 ];
@@ -22,7 +22,7 @@ export const stages = [
 ];
 export const evidence = [
 {tag:'Established',title:'Industrial building blocks',description:'Submerged-arc furnace principles, electrodes, industrial gas cleaning, separation and synthesis each have established industrial applications.',limit:'Component maturity does not establish the performance of an integrated NZP project.',items:['Industrial furnace architecture','Commercial gas-processing equipment','Established downstream process families']},
-{tag:'Historical',title:'Technology heritage',description:'NZP describes its engineering heritage in demanding hazardous-waste treatment and high-temperature industrial conversion programmes.',limit:'Historical systems and regulatory approvals must be tied to the specific system, application and period. They do not transfer automatically to a new project.',items:['Relevant operating history','Application-specific treatment evidence','Historical engineering records']},
+{tag:'Historical',title:'Technology heritage',description:'NZP describes its engineering heritage in demanding hazardous-waste treatment and ultra-high temperature plasma technology programmes.',limit:'Historical systems and regulatory approvals must be tied to the specific system, application and period. They do not transfer automatically to a new project.',items:['Relevant operating history','Application-specific treatment evidence','Historical engineering records']},
 {tag:'Engineering',title:'NZP project architecture',description:'Process configuration, modelling and engineering know-how connect the conversion core with site utilities and downstream output requirements.',limit:'Models inform decisions; results require review against measured data and the proposed design.',items:['Mass and energy balances','Equipment interfaces','Techno-economic models']},
 {tag:'Project-specific',title:'The case for your project',description:'Feedstock, net energy, product quality, emissions, residues, costs and lifecycle carbon must be assessed for the actual project.',limit:'Yield, availability, payback and carbon benefits are project-specific outcomes, not universal promises.',items:['Representative feedstock trials','Product and environmental testing','Independent review where appropriate']}
 ];

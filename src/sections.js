@@ -314,12 +314,12 @@ export const sections = [
     "label": "Technology & IP",
     "eyebrow": "Engineering knowledge into a project",
     "title": "The architecture. The know-how. The evidence.",
-    "description": "NZP’s proposition combines high-temperature conversion principles with gas-processing interfaces, configuration models and project engineering.",
+    "description": "NZP’s proposition combines ultra-high temperature plasma technology with gas-processing interfaces, configuration models and project engineering.",
     "note": "Patent ownership, applications, licence scope and third-party rights should be established through the relevant records and agreements. This page makes no claim to a granted patent portfolio.",
     "items": [
       {
         "title": "Conversion architecture",
-        "description": "Submerged-arc furnace principles form the starting point for controlled high-temperature conversion of qualified material.",
+        "description": "Submerged-arc furnace principles form the starting point for conversion of qualified material using ultra-high temperature plasma technology.",
         "inputs": [
           "Electrical load and operating conditions",
           "Feedstock preparation and furnace design",
