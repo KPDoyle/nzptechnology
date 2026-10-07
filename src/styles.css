@@ -13,4 +13,5 @@
 @media(max-width:640px){.catalogue-grid,.resource-grid{grid-template-columns:1fr}.catalogue-card{padding:25px}.catalogue-card h2{font-size:27px}.directory-search{min-width:0;width:100%;margin-top:25px}.section-head:has(.directory-search){display:block}.directory-bar>.container>div{gap:8px 18px}.directory-bar a{font-size:12px}.catalogue-count{margin-top:0}.resource-library h2{font-size:32px}.section-hero-actions{gap:20px}.section-hero-actions .text-link{font-size:13px}.resource-link{padding:22px;font-size:16px}.footer-directory{gap:17px 20px}.footer-directory a{font-size:12px}.resource-related{display:block}.resource-related>a{margin-bottom:20px}}
 
 /* Reveal more of the facility panorama while preserving the hero layout. */
-@media(min-width:641px){.hero-plant{width:100%;object-position:center 50%}}
+@media(min-width:641px){.hero-plant{width:73%;object-position:left 50%}}
+@media(max-width:640px){.hero-plant{object-position:left 62%}}
