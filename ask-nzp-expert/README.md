@@ -1,0 +1,32 @@
+# Ask NZP Expert™
+
+Next.js application for Net Zero Platforms: four specialist modes, an evidence-grounded RAG endpoint using Vercel AI SDK, Supabase pgvector, protected administration, lead capture, preliminary feasibility and an embeddable launcher.
+
+## Local run
+
+Use Node 22+ and pnpm. Run `pnpm install`, copy `.env.example` to `.env.local`, then `pnpm dev`. `pnpm build`, `pnpm typecheck` and `pnpm test` validate the application. With no credentials, the interface works, answers abstain, assessments display no numerical estimates and lead submission reports setup pending. No fabricated demonstration results are used.
+
+## Production configuration
+
+1. Create a Supabase project in an appropriate region. Run `supabase/schema.sql` in its SQL editor. All tables use RLS without browser access policies. Service-role credentials remain server-only.
+2. Create named admin users in Supabase Auth; disable public account registration. Set their UUIDs in `ADMIN_USER_IDS`. Set the Supabase server URL and service-role key, plus the public URL and anon key for sign-in. Configure Auth protections and a documented lead retention/deletion process. The admin login uses short-lived access tokens held in memory; sign in again when a token expires.
+3. On Vercel, enable project OIDC: the AI SDK authenticates automatically with the deployment identity. An AI Gateway key is only needed outside Vercel. Set `AI_MODEL` to an available model supporting structured outputs (verified catalogue example: `openai/gpt-6.1-sol`). Set `EMBEDDING_MODEL=openai/text-embedding-3-small` (1536 dimensions). If choosing a different embedding size, migrate the vector column and RPC signature and reindex every source. No existing CRM integration was discovered; leads use Supabase.
+4. In `/admin`, import extracted `.txt`/`.md` source text or paste text into a source record. Choose a category, canonical citation URL and review note. Confirm public disclosure permission before approval. Approval embeds overlapping extracts; only approved, public sources are retrieved. Revocation removes dependent coefficient and FAQ approvals. Documents are data, never model instructions. No model tools access the internet.
+5. The private local review pack contains the reviewed SharePoint readiness document, company profile, strategic overview and investor deck. It is excluded from Git and deployment. Import with `pnpm exec tsx --env-file=.env.local scripts/import-review-pack.ts`; all records remain unapproved. Other PDFs, decks and white papers require text extraction with section/page labels before import. Do not publish private SharePoint content or links without permission. Use an approved public source URL or publication page for citations.
+6. Review historic temperature, emissions, readiness, patent and financial claims for consistency. Archived projections are not validated coefficients. Add evidence covering technology, all feedstocks, economics, sustainability, projects, patents, readiness, FAQs, case studies, website, decks and white papers; the taxonomy supports every category, but a complete approved corpus requires NZP review. Approved FAQs are embedded and retrieved alongside source extracts, with citations to their approved underlying source.
+7. Supply every coefficient from NZP-approved evidence, including feedstock and country scope, moisture and scale envelope, currency, total CAPEX, OPEX, yields, prices, gate fee, carbon baseline, and uncertainty. No numerical defaults are seeded. All yields are per as-received tonne; document gas normal conditions, recovery efficiencies, system boundaries, input composition, exclusions and validity dates in assumptions. Syngas, hydrogen and CO are alternative product pathways. Revenue uses one selected product plus gate fee. ROI = annual operating surplus / CAPEX; it is not project IRR. Model uncertainty is a supplied envelope, not a probabilistic confidence interval. Further characteristics require engineering validation.
+8. Confirm controller contact details, retention, processor terms and transfer arrangements in `/privacy` before collecting live enquiries. Set production `NEXT_PUBLIC_SITE_URL` and exact `EMBED_ORIGINS`. Restrict who can approve public technical evidence. Run an end-to-end staging check with approved test evidence, citation validation, admin denial, real lead storage and coefficient revocation before opening live advisory use.
+
+## Vercel / GitHub deployment
+
+Import this directory as a Next.js Vercel project. Set the variables above for production and previews separately. Install command: `pnpm install --frozen-lockfile`. Build: `pnpm build`. Do not commit `.env.local`, `private-imports`, or service credentials. Connect an authorised GitHub repository for continuous deployment. If the app is stored under `ask-nzp-expert/` in a shared repo, set that as the Vercel root directory and use its dedicated branch. Never replace the main NZP website project.
+
+## Embed
+
+Add `<script src="https://YOUR-APP-DOMAIN/widget.js" defer></script>` to the NZP website. It creates a bottom-right launcher and isolated iframe at `/embed`. Add the parent website's exact origin to `EMBED_ORIGINS`, then redeploy. Full-page experience is `/`. Lead capture is offered after three supported substantive answers; it does not block further guidance or count refusals. Enquiries also open from the header and assessment.
+
+## Limits and validation
+
+Retrieval uses cosine similarity with an initial 0.65 threshold; tune against an NZP evaluation set. Structured responses require valid retrieved chunk IDs on every paragraph, and invalid citations cause abstention. This prevents invented source IDs, but does not prove every statement is entailed: human-reviewed answer evaluation is required before launch. Private documents are never bundled. Rate limits are database-backed at 20 requests/minute/IP per endpoint; production should also use Vercel WAF/bot controls. Lead export, CRM sync, binary document parsing, automatic SharePoint synchronisation and MFA are not included. Admin offers a structured JSON editor rather than a rich document authoring system.
+
+Supabase Marketplace keys are supported: `SUPABASE_SECRET_KEY` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, alongside legacy service-role/anon alternatives. Never expose the server secret through a NEXT_PUBLIC variable.
