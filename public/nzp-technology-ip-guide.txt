@@ -1,6 +1,6 @@
 NET ZERO PLATFORMS — TECHNOLOGY & IP
 
-NZP’s proposition combines ultra-high temperature plasma technology with gas-processing interfaces, configuration models and project engineering.
+The conversion approach draws on established submerged-arc furnace engineering. Furnace and melting records inform the design; models help assess project economics. Measured syngas quality, yield and operating performance must come from relevant tests or operating data.
 
 CONVERSION ARCHITECTURE
 Submerged-arc furnace principles form the starting point for conversion of qualified material using ultra-high temperature plasma technology.

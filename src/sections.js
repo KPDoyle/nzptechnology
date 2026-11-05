@@ -153,8 +153,8 @@ export const sections = [
     "slug": "products",
     "label": "Products & Applications",
     "eyebrow": "Build around useful demand",
-    "title": "From gas intermediate to customer specification.",
-    "description": "A syngas intermediate creates options. The practical output depends on gas quality, processing equipment, local demand and the economics of the complete route.",
+    "title": "Design around what your customers can use.",
+    "description": "Start with the buyer’s required gas composition, contaminant limits, pressure, volume and delivery schedule. These requirements help determine the gas cleaning, conditioning and downstream equipment, and whether the complete route makes commercial sense.",
     "note": "Downstream products are potential pathways requiring specialist synthesis technology and project validation. NZP does not claim to produce every product listed in one standard plant.",
     "items": [
       {
@@ -244,7 +244,7 @@ export const sections = [
     "label": "Partners & Licensing",
     "eyebrow": "Work together with defined roles",
     "title": "Your industrial expertise. Our conversion technology. Shared opportunity.",
-    "description": "NZP brings conversion technology, feedstock assessment and configuration modelling. Equipment suppliers, engineering and delivery partners, and industrial buyers bring the equipment, site integration and offtake needed for each project. Responsibilities are agreed before committing capital.",
+    "description": "Waste owners supply and characterise the feedstock. NZP assesses it and models a conversion configuration. Equipment suppliers and engineering partners specify and integrate the plant. Industrial buyers set the product specification and agree how they will take the output. Each project defines these responsibilities before committing capital.",
     "note": "Partner appointments, licensing rights, territory, commercial terms and performance obligations are defined by project-specific agreements. No supplier endorsement or signed partnership is implied by these role descriptions.",
     "items": [
       {
@@ -314,7 +314,7 @@ export const sections = [
     "label": "Technology & IP",
     "eyebrow": "Engineering knowledge into a project",
     "title": "The architecture. The know-how. The evidence.",
-    "description": "NZP’s proposition combines ultra-high temperature plasma technology with gas-processing interfaces, configuration models and project engineering.",
+    "description": "The conversion approach draws on established submerged-arc furnace engineering. Furnace and melting records inform the design; models help assess project economics. Measured syngas quality, yield and operating performance must come from relevant tests or operating data.",
     "note": "Patent ownership, applications, licence scope and third-party rights should be established through the relevant records and agreements. This page makes no claim to a granted patent portfolio.",
     "items": [
       {

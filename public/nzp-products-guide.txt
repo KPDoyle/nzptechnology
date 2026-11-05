@@ -1,6 +1,6 @@
 NET ZERO PLATFORMS — PRODUCTS & APPLICATIONS
 
-A syngas intermediate creates options. The practical output depends on gas quality, processing equipment, local demand and the economics of the complete route.
+Start with the buyer’s required gas composition, contaminant limits, pressure, volume and delivery schedule. These requirements help determine the gas cleaning, conditioning and downstream equipment, and whether the complete route makes commercial sense.
 
 SYNGAS
 A hydrogen- and carbon-monoxide-containing intermediate for energy or further processing. Its composition must suit the intended application.
