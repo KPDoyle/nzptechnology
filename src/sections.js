@@ -243,8 +243,8 @@ export const sections = [
     "slug": "partners",
     "label": "Partners & Licensing",
     "eyebrow": "Work together with defined roles",
-    "title": "A project is more than a conversion core.",
-    "description": "Feedstock owners, customers, technology suppliers and delivery partners each bring a different part of the project. Define the responsibilities before committing capital.",
+    "title": "Your industrial expertise. Our conversion technology. Shared opportunity.",
+    "description": "NZP brings conversion technology, feedstock assessment and configuration modelling. Equipment suppliers, engineering and delivery partners, and industrial buyers bring the equipment, site integration and offtake needed for each project. Responsibilities are agreed before committing capital.",
     "note": "Partner appointments, licensing rights, territory, commercial terms and performance obligations are defined by project-specific agreements. No supplier endorsement or signed partnership is implied by these role descriptions.",
     "items": [
       {
