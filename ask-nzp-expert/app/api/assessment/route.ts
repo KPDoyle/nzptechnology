@@ -1,0 +1,4 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {assessmentSchema,factorSchema,calculate} from '@/lib/model';
+import {db,failure,rateLimit,clientKey} from '@/lib/server';
+export async function POST(req:NextRequest){try{const input=assessmentSchema.parse(await req.json());if(!process.env.SUPABASE_URL)return NextResponse.json(calculate(input,null));await rateLimit('assessment:'+clientKey(req));const {data,error}=await db().from('coefficients').select('*').eq('approved',true).ilike('feedstock',input.feedstock).ilike('country',input.country).order('updated_at',{ascending:false});if(error)throw error;const valid=(data||[]).map(x=>factorSchema.safeParse(x)).filter(x=>x.success).map(x=>x.data!);const matching=valid.find(f=>input.tonnes>=f.min_tonnes&&input.tonnes<=f.max_tonnes&&input.moisture>=f.min_moisture&&input.moisture<=f.max_moisture);return NextResponse.json(calculate(input,matching||null));}catch(e){return failure(e)}}
