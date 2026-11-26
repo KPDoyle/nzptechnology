@@ -31,10 +31,10 @@ const examples=[
   {
     id:'albany-arc-melter',title:'Albany arc-melter programmes',location:'Oregon, United States',step:'Graphite-electrode treatment & vitrification',
     intro:'US Bureau of Mines and Department of Energy programmes investigated arc melting of incinerator residues and materials simulating difficult mixed wastes.',
-    facts:[['Programme','Bureau of Mines / DOE research'],['Technology','Three-phase graphite-electrode arc melting'],['Materials studied','Incinerator ash, waste surrogates and contaminated-soil surrogates']],
-    detail:'The 1996 Eddy et al. paper describes ash-vitrification work and subsequent modifications for combustible-waste tests. A separate 1995 Bureau of Mines report documents the sealed graphite-electrode treatment facility and its design for simulated low-level radioactive and mixed-waste materials.',
+    facts:[['Programme','Bureau of Mines / DOE research'],['Technology','Three-phase graphite-electrode arc melting'],['Phase 2 operation','84 hours, including preheat and cleanout'],['Feed mixtures processed','Approximately 28,000 lb of waste/soil surrogates']],
+    detail:'The primary Phase 2 report documents trials on 11–14 April 1995, with continuous feeding, semi-continuous slag tapping and a separately tapped metal-alloy phase. The feed mixtures were non-radioactive mixed-waste surrogates with substantial added soil. The report records glass/ceramic product characterisation and leach testing. Offgas was treated through a thermal-oxidation and filtration train.',
     relevance:'A research precedent for the thermal-treatment and mineral-vitrification steps relevant to NZP’s engineering foundations. The work concerns specific test materials and treatment duties.',
-    source:'Eddy et al., Plasma Arc Melters for Conversion of Waste to Value-Added Products, ASME, 1996; Hartman et al., Evaluation of the Three-Phase Electric Arc Melting Furnace, Part 1, Bureau of Mines, 1995.',
+    source:'Soelberg et al., Graphite Electrode Arc Melter Demonstration Phase 2 Test Results, INEL-95/0502, June 1996, executive summary; Hartman et al., facility design report, Bureau of Mines, 1995.',
     url:'https://stacks.cdc.gov/view/cdc/237729'
   },
   {

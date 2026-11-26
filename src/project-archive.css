@@ -7,3 +7,5 @@
 
 .archive-record-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:24px}.archive-record-gallery .archive-photo{margin-top:0}.archive-record-gallery .archive-photo img{height:180px}@media(max-width:640px){.archive-record-gallery{grid-template-columns:1fr}}
 @media(min-width:641px){#project-library{align-items:stretch}#project-library>.archive-project{display:grid;grid-template-rows:subgrid;grid-row:span 4;row-gap:0}#project-library>.archive-project>.archive-project-heading{grid-row:1}#project-library>.archive-project>.archive-photo{grid-row:2}#project-library>.archive-project>.archive-facts{grid-row:3}#project-library>.archive-project>.archive-detail{grid-row:4}}
+
+#engineering-record{scroll-margin-top:115px}.engineering-record-sources{border-top:1px solid var(--line);margin-top:28px}

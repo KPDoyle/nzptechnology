@@ -55,6 +55,13 @@ export const projectCases = [
     sources:'SUI #1 plasma gasification project summary, Lawrence Livermore test-system account.'
   },
   {
+    id:'materials-development',title:'Ash-derived glass-ceramic development',location:'MeltTran historical test programme',period:'Technical summaries, August 2021',category:'Test programmes',application:'Mineral products & materials development',
+    intro:'Historical experiments explored how ash-derived molten material could be cast and heat-treated into glass-ceramic forms, including tiles and flagstones.',
+    facts:[['Programme','38 devitrification experiments'],['Material sources','MTI-50 and MTI-200 produced material'],['Inputs studied','Waste-to-energy ash and soil/limestone mixtures'],['Forms examined','Frit, tiles and flagstone specimens']],
+    sections:[['The experimental work','The programme used programmable ovens to examine crystal nucleation, growth and annealing. Composition, specimen size and temperature/time schedules were varied to study how the material developed during heat treatment.'],['What the work found','Selected ash-derived tile experiments achieved full crystallisation under the reported treatment conditions. Other compositions were only partially crystallised, demonstrating the importance of matching the thermal schedule to the material.'],['Industrial relevance','The work adds materials-development experience to the engineering record. It informs exploration of mineral-product pathways alongside gas and metal recovery, with the product route selected around the properties of the particular material.']],
+    sources:'T. L. Eddy, MTI Devit Test Summary, 31 August 2021; MTI Devit Testing Summary Report, 20 August 2021. Historical materials experiments.'
+  },
+  {
     id:'birmingham-asr',title:'Birmingham industrial energy integration',location:'Alabama, United States',period:'Development, 2000–2002',category:'Development studies',application:'Automotive shredder residue',
     intro:'A development project explored repurposing an existing industrial furnace to turn automotive shredder residue and tyres into syngas for on-site power.',
     facts:[['Existing asset','5 MW arc furnace proposed for conversion'],['Design feed rate','5 short tons/h'],['Feedstocks','Automotive shredder residue and tyres'],['Intended output','Syngas for combined-cycle power']],

@@ -229,7 +229,7 @@ export const sections = [
       },
       {
         "title": "Recovered metals & vitrified material",
-        "description": "Investigate solid products through composition, recovery, leachability and customer acceptance testing. A usable product route must be demonstrated.",
+        "description": "Explore metals recovery and mineral-product pathways informed by historical furnace work and glass-ceramic experiments. Composition, leachability and the intended use shape the product specification.",
         "inputs": [
           "Material composition and recovery",
           "Leachability and product standards",
@@ -314,8 +314,8 @@ export const sections = [
     "label": "Technology & IP",
     "eyebrow": "Engineering knowledge into a project",
     "title": "The architecture. The know-how. The evidence.",
-    "description": "The conversion approach draws on established submerged-arc furnace engineering. Furnace and melting records inform the design; models help assess project economics. Measured syngas quality, yield and operating performance must come from relevant tests or operating data.",
-    "note": "Patent ownership, applications, licence scope and third-party rights should be established through the relevant records and agreements. This page makes no claim to a granted patent portfolio.",
+    "description": "NZP brings acquired graphite-arc process know-how and engineering documentation together with established industrial equipment. The engineering heritage spans furnace design, controls, gas treatment, operating procedures and whole-process configuration.",
+    "note": "Technology and licensing scope are defined for each project, connecting NZP know-how, process integration and the selected equipment interfaces.",
     "items": [
       {
         "title": "Conversion architecture",
@@ -349,7 +349,7 @@ export const sections = [
       },
       {
         "title": "Drawings & technical documentation",
-        "description": "A project evidence pack can include the design basis, engineering drawings, equipment interfaces and operating procedures appropriate to its stage.",
+        "description": "The engineering archive includes drawing indexes, design files, P&IDs, operating and training manuals, commissioning plans and site-acceptance records from historical projects.",
         "inputs": [
           "Documentation scope and ownership",
           "Revision control and design approval",
@@ -358,8 +358,8 @@ export const sections = [
         "route": ""
       },
       {
-        "title": "IP & licensing review",
-        "description": "Establish the rights needed for the proposed implementation, including relevant NZP know-how and third-party process technology.",
+        "title": "Patent lineage & licensing",
+        "description": "Published US patent 10,435,295 B2, issued in 2019, describes coupling an electric furnace with liquid-fuel synthesis, process-effluent recycle and heat recovery. NZP project discussions define the applicable technology and licensing scope.",
         "inputs": [
           "Patent and application records where applicable",
           "Ownership and permitted use",
@@ -384,12 +384,12 @@ export const sections = [
     "label": "AI & Modelling",
     "eyebrow": "Decision support with a clear basis",
     "title": "Better questions. Explicit assumptions.",
-    "description": "Explore the modelling work behind project selection: material balances, net energy, product routes, commercial sensitivity and lifecycle carbon.",
+    "description": "Connect feedstock chemistry with process configuration: composition, additives, mass and energy balances, furnace sizing, equipment selection and commercial scenarios. Historical process models and engineering workbooks form part of this technical foundation.",
     "note": "The live calculator uses transparent arithmetic. This website does not run an AI engineering model, predict feedstock yields or provide an automated investment decision. Engineering results require a documented model and review.",
     "items": [
       {
         "title": "Feedstock-to-output configuration",
-        "description": "Compare viable processing routes using representative material data and customer output specifications.",
+        "description": "Engineering workbooks link feedstock composition and process additives with the selected gas or materials pathway, equipment sizing and customer requirements.",
         "inputs": [
           "Feedstock chemistry and variability",
           "Process assumptions and equipment limits",

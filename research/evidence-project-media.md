@@ -74,3 +74,9 @@ Reworked the generic development-approach cards into “How this experience shap
 ## Hanjung presentation update
 
 Moved Hanjung from its standalone feature section into the standard project library, after California and before Livermore. The record retains its HVP200 brochure specifications, treatment duty and testing detail. One archival image appears with the card; the other two photographs sit inside its expandable record. MTI-500 equipment captions remain explicit. Removed the featured South Korea shortcut and changed the hero and engineering-lesson links to the wider collection.
+
+## Credibility additions with competitor-promotion constraint
+
+Implemented the useful own-heritage and institutional findings from the 26 November credibility review: an engineering-record panel referencing the dated inventory, HJ design register and model instructions; a historical materials-development record based on the two August 2021 MeltTran devitrification summaries; expanded Albany Phase 2 facts from INEL-95/0502 executive-summary pages v-vii; the published subject and issue year of US 10,435,295 B2; concrete modelling functions; and a concise Richard Molsbee capability description from the February 2025 team biography.
+
+The branded EvTEC/IET/InEnTec verification case was not added to the website under the user's instruction to avoid competitor promotion. No competing supplier logo, branded product card, vendor CTA, or vendor performance claim was introduced. Government research and historical MeltTran work retain their attribution; neither is represented as measured current NZP performance. No current patent ownership/status was inferred from the older patent summary. No confidential HJ trial-burn scan, private inventory, spreadsheet, agreement, personal contact data or internal review report was added to public assets. Existing non-competing industrial operator precedents were retained.
