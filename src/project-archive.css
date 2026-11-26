@@ -4,3 +4,5 @@
 #industrial-precedents{scroll-margin-top:115px}#industrial-precedents .archive-project{background:white}.archive-process-step{border-top:1px solid var(--line);margin-top:24px;padding-top:20px}.archive-process-step>span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.archive-process-step h4{font-size:17px;font-weight:500;line-height:1.5;color:var(--navy);margin:10px 0 0}
 
 #experience-shapes-nzp{scroll-margin-top:115px}.experience-lessons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 50px}.experience-lessons .simple-card .eyebrow{margin-bottom:18px}.experience-lessons .text-link{line-height:1.6}@media(max-width:640px){.experience-lessons{grid-template-columns:1fr;gap:20px}}
+
+.archive-record-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:24px}.archive-record-gallery .archive-photo{margin-top:0}.archive-record-gallery .archive-photo img{height:180px}@media(max-width:640px){.archive-record-gallery{grid-template-columns:1fr}}

@@ -39,6 +39,15 @@ export const projectCases = [
     sources:'CASE Studies, project 2; PEAT project summary.'
   },
   {
+    id:'hanjung',title:'Hanjung waste-treatment pilot',location:'South Korea',period:'Historical demonstration programme',category:'Test programmes',application:'Graphite-arc treatment & vitrification',
+    intro:'The HVP200 pilot at the Korea Atomic Energy Research Institute brought together graphite-arc treatment, automated electrode control, gas treatment and emissions monitoring, with contributions from MeltTran and COH2.',
+    image:{file:'korea-testing',alt:'MTI-500 shakedown and testing in the Hanjung project archive, 1998',caption:'MTI-500 shakedown and testing, 1998 — original Hanjung project archive caption. Photographic equipment labels are distinct from HVP200 brochure specifications.'},
+    gallery:[{file:'mti-construction',alt:'MTI-500 furnace during construction in 1997',caption:'MTI-500 construction, 1997 — original equipment archive photograph.'},{file:'korea-arrival',alt:'MTI-500 equipment offloaded in South Korea in February 1998',caption:'MTI-500 equipment offloaded in South Korea, February 1998 — Hanjung project archive.'}],
+    facts:[['Pilot design capacity','200 kg/h, HVP200 brochure basis'],['Electrodes','Two graphite electrodes'],['Historical duty','Waste vitrification and destruction'],['Test programme','Six non-radioactive and two radioactive-surrogate tests']],
+    sections:[['The engineering','The brochure describes a melt temperature of at least 1,200°C, separate metal and glass/ceramic products, and wet and dry gas treatment with final filtration. Automatic electrode control, monitoring and standby diesel power formed part of the facility design.'],['The test programme','Startup and surrogate testing covered the treatment train. Product assessment included glass leach testing under the Product Consistency Test and compressive-strength testing under ASTM C39.'],['Products and gas pathway','The historical duty was vitrification and destruction. Offgas was oxidised rather than recovered for sale as syngas. The 200 kg/h figure is the historical pilot design capacity.'],['Industrial relevance','The project contributes graphite-arc process-control and plant-integration experience to the engineering heritage informing NZP’s development of technology for useful industrial gas recovery.']],
+    sources:'Hanjung HVP200 brochure, pp. 3–11; Hanjung project archive photographs, identified by their original MTI-500 equipment captions.'
+  },
+  {
     id:'livermore',title:'Lawrence Livermore waste trials',location:'California, United States',period:'1999–2000',category:'Test programmes',application:'Hazardous & medical waste',
     intro:'A smaller plasma system was constructed and tested for a US Department of Energy laboratory programme involving hazardous and medical waste.',
     facts:[['Programme','Lawrence Livermore National Laboratory'],['Equipment scale','Up to 150 kg/h'],['Feedstocks','Hazardous and medical wastes'],['Period','Construction and testing, 1999–2000']],

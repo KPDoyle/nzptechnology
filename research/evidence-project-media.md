@@ -70,3 +70,7 @@ Other records inspected included ABB ArcSave at SDI Roanoke, Tenova CONSTEERRER,
 ## Connecting the evidence with platform development
 
 Reworked the generic development-approach cards into “How this experience shapes NZP”, following review of the user-supplied Marketing Slogans and Website Approach v2.1 and v2.2 attachments. Their extracted paragraph text is identical. The section connects Hanjung graphite-electrode controls, historical treatment duties and Taipei syngas reuse with NZP's development approach. It also explains established gas-processing equipment, project-specific heat integration and modular capacity planning. Uses development/design wording for current NZP configurations; does not assert demonstrated current yields, a proven modular deployment history or superiority to torch systems. Existing page covers the supporting primary historical records. No draft release checklist or internal assessment language is published.
+
+## Hanjung presentation update
+
+Moved Hanjung from its standalone feature section into the standard project library, after California and before Livermore. The record retains its HVP200 brochure specifications, treatment duty and testing detail. One archival image appears with the card; the other two photographs sit inside its expandable record. MTI-500 equipment captions remain explicit. Removed the featured South Korea shortcut and changed the hero and engineering-lesson links to the wider collection.
